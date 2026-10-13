@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Hi, I'm Adaks. I build small, free Windows tools that fix everyday annoyances." width="100%">
+  <img src="assets/banner.svg" alt="Hi, I'm Adaks" width="100%">
 </p>
 
 <p align="center">
