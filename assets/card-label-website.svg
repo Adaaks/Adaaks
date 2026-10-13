@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161b26"/>
+      <stop offset="1" stop-color="#10141c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#74c0fc"/>
+      <stop offset="1" stop-color="#4263eb"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="600" height="230" rx="16"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="229" rx="16" fill="url(#g)" stroke="#2a3140"/>
+  <rect x="0" y="0" width="600" height="5" fill="url(#accent)" clip-path="url(#c)"/>
+
+  <!-- icon: label coming out of a printer -->
+  <g transform="translate(32,34)">
+    <rect width="56" height="56" rx="14" fill="#4c6ef5"/>
+    <rect x="12" y="16" width="32" height="14" rx="4" fill="#ffffff"/>
+    <rect x="16" y="30" width="24" height="16" rx="2" fill="#e7f0ff"/>
+    <rect x="20" y="35" width="16" height="2.5" rx="1" fill="#4c6ef5"/>
+    <rect x="20" y="40" width="10" height="2.5" rx="1" fill="#4c6ef5"/>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+    <text x="108" y="58" font-size="26" font-weight="700" fill="#f1f4f8">QL-1100 Label Website</text>
+    <text x="108" y="84" font-size="16" fill="#74c0fc" font-weight="600">Print labels from any device</text>
+
+    <text x="32" y="130" font-size="17.5" fill="#aab4c3">A label-printing website for the Brother QL-1100 that</text>
+    <text x="32" y="155" font-size="17.5" fill="#aab4c3">replaces P-touch. Text and shipping labels, live preview.</text>
+
+    <circle cx="38" cy="196" r="6" fill="#3572A5"/>
+    <text x="52" y="201" font-size="15" fill="#c9d1d9">Python</text>
+    <text x="118" y="201" font-size="15" fill="#6e7a8a">Flask  ·  Phone, tablet or PC</text>
+    <text x="568" y="201" font-size="15" fill="#74c0fc" text-anchor="end" font-weight="600">View →</text>
+  </g>
+</svg>
